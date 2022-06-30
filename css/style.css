@@ -64,11 +64,15 @@
 
 .scene {
 	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: auto;
 	height: 200px;
 	/*   border: 1px solid #CCC; */
 	margin: 10px;
 	perspective: 600px;
+
 }
 
 .card {
