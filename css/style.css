@@ -13,7 +13,7 @@
 }
 
 .item-place {
-	width: 55%;
+	width: 80%;
 	height: auto;
 	padding: 20px;
 	border-radius: 11px;
@@ -24,7 +24,7 @@
 }
 
 .item-wrapper {
-	background-color: darkred;
+	background-color: darkturquoise;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	overflow: hidden;
@@ -74,11 +74,12 @@
 .card {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 82%;
 	cursor: pointer;
 	transform-style: preserve-3d;
 	transform-origin: center right;
 	transition: transform 1s;
+	margin: 0 2px 0 2px;
 }
 
 .card.is-flipped {
@@ -93,7 +94,7 @@
 	color: white;
 	text-align: center;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 37px;
 	backface-visibility: hidden;
 }
 
